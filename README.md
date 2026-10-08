@@ -17,4 +17,4 @@ Replace the equivalent files in your GitHub repository and push to the branch co
 1. Create `hello@hieudaotao.io.vn` or replace that email everywhere.
 2. Confirm the LinkedIn URL in `index.html`.
 3. Keep the prototype/early-stage wording accurate until features are actually production-ready.
-4. Optionally rename the GitHub repository from `tvtsDUE` to something aligned with the brand, e.g. `hieudaotao-web`.
+4. Ensure the GitHub repository name is aligned with the brand (`hieudaotao-web`).
