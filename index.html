@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="HieuDaoTao is an early-stage AI platform focused on academic policy intelligence for higher education in Vietnam, turning complex regulations into source-grounded, human-verified workflows." />
-  <meta name="keywords" content="HieuDaoTao, Academic Policy Intelligence, EdTech Vietnam, higher education AI, academic regulations, university administration, Claude AI, document reasoning" />
+  <meta name="description" content="HieuDaoTao is an early-stage academic policy intelligence project for higher education, with a working prototype for source-grounded analysis of academic regulations and human-reviewed AI workflows." />
+  <meta name="keywords" content="HieuDaoTao, Academic Policy Intelligence, EdTech Vietnam, higher education AI, academic regulations, university administration, document reasoning, policy grounding" />
   <meta name="author" content="HieuDaoTao" />
   <meta name="robots" content="index,follow" />
 
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.hieudaotao.io.vn/" />
   <meta property="og:title" content="HieuDaoTao - Academic Policy Intelligence for Higher Education" />
-  <meta property="og:description" content="Early-stage EdTech project building source-grounded AI workflows for academic regulations and higher-education administration in Vietnam." />
+  <meta property="og:description" content="Early-stage EdTech project with a working prototype for source-grounded AI workflows in academic regulations and higher-education administration." />
   <meta property="og:image" content="https://www.hieudaotao.io.vn/assets/brand/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -21,7 +21,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://www.hieudaotao.io.vn/" />
   <meta name="twitter:title" content="HieuDaoTao - Academic Policy Intelligence for Higher Education" />
-  <meta name="twitter:description" content="Early-stage EdTech project building source-grounded AI workflows for academic regulations and higher-education administration in Vietnam." />
+  <meta name="twitter:description" content="Early-stage EdTech project with a working prototype for source-grounded AI workflows in academic regulations and higher-education administration." />
   <meta name="twitter:image" content="https://www.hieudaotao.io.vn/assets/brand/og-image.png" />
 
   <link rel="canonical" href="https://www.hieudaotao.io.vn/" />
@@ -47,7 +47,8 @@
       "addressCountry": "VN"
     },
     "sameAs": [
-      "https://www.linkedin.com/in/hieu-dang-van-b16b89441"
+      "https://www.linkedin.com/in/hieu-dang-van-b16b89441",
+      "https://github.com/tieuhac0109/hieudaotao-prototype"
     ]
   }
   </script>
@@ -69,7 +70,7 @@
 
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#core-workflow" data-i18n="nav.workflow">Core workflow</a>
-        <a href="#prototype" data-i18n="nav.prototype">Current prototype</a>
+        <a href="#prototype" data-i18n="nav.prototype">Prototype</a>
         <a href="#use-cases" data-i18n="nav.usecases">Use cases</a>
         <a href="#why-claude" data-i18n="nav.whyclaude">Why Claude</a>
         <a href="#evaluation" data-i18n="nav.evaluation">Evaluation</a>
@@ -90,7 +91,7 @@
         <div class="hero-copy reveal">
           <div class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Early-stage EdTech · Vietnam</span></div>
           <h1 data-i18n="hero.title">AI workflows built for the complexity of higher education.</h1>
-          <p class="hero-lead" data-i18n="hero.lead">HieuDaoTao is an early-stage AI platform focused on understanding academic regulations and turning complex higher-education documents into source-grounded workflows.</p>
+          <p class="hero-lead" data-i18n="hero.lead">HieuDaoTao is an early-stage AI platform focused on understanding academic regulations and turning complex higher-education documents into source-grounded, human-verified workflows.</p>
 
           <div class="hero-pipeline-strip" aria-label="Conceptual pipeline">
             <span class="pipe-item" data-i18n="hero.pipe1">Academic regulations</span>
@@ -103,10 +104,10 @@
           </div>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#prototype" data-i18n="hero.cta1">Explore the prototype</a>
-            <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Join our pilot program →</a>
+            <a class="btn btn-primary" href="https://prototype.hieudaotao.io.vn/" target="_blank" rel="noopener noreferrer" data-i18n="hero.cta_prototype">Try live prototype ↗</a>
+            <a class="btn btn-outline" href="#core-workflow" data-i18n="hero.cta_explore">Explore the workflow</a>
           </div>
-          <div class="trust-line" data-i18n="hero.trust">Prototype stage · Human-in-the-loop by design · Built for Vietnamese higher education contexts</div>
+          <div class="trust-line" data-i18n="hero.trust">Working prototype deployed · Human-in-the-loop by design · Built for Vietnamese higher education contexts</div>
         </div>
 
         <div class="hero-visual reveal" aria-label="Product concept preview">
@@ -125,28 +126,27 @@
               </aside>
               <div class="workspace">
                 <div class="workspace-head">
-                  <span style="font-weight:700">Admission Policy Review</span>
-                  <span class="status-pill" data-i18n="mockup.status">Prototype</span>
+                  <span style="font-weight:700">Policy Intelligence Review</span>
+                  <span class="status-pill success" data-i18n="mockup.status">Live Prototype</span>
                 </div>
                 <div class="doc-card">
                   <div class="file-icon" aria-hidden="true">PDF</div>
                   <div>
-                    <strong data-i18n="mockup.doc_name">2026_admission_regulation.pdf</strong>
-                    <small data-i18n="mockup.doc_meta">128 pages · Vietnamese</small>
+                    <strong data-i18n="mockup.doc_name">quy-che-dao-tao-mau.pdf</strong>
+                    <small data-i18n="mockup.doc_meta">3 pages · Vietnamese regulation</small>
                   </div>
                   <span class="processed" data-i18n="mockup.processed">Analyzed</span>
                 </div>
-                <div class="question-box" data-i18n="mockup.question">Which sections define eligibility requirements for early admission?</div>
+                <div class="question-box" data-i18n="mockup.question">What are the graduation eligibility conditions in this regulation?</div>
                 <div class="answer-card">
                   <div class="ai-chip" data-i18n="mockup.ai_chip">AI-assisted answer</div>
-                  <p data-i18n="mockup.answer">The regulation defines eligibility across three sections. The most relevant provisions are found in Articles 7, 11, and Appendix II.</p>
+                  <p data-i18n="mockup.answer">Graduation eligibility is defined in Article 18. Students are recognized for graduation when their cumulative GPA reaches 2.00 or higher on a 4.0 scale and they satisfy the foreign language exit benchmark.</p>
                   <div class="sources-wrap">
-                    <span data-i18n="mockup.src1">Art. 7</span>
-                    <span data-i18n="mockup.src2">Art. 11</span>
-                    <span data-i18n="mockup.src3">Appendix II</span>
+                    <span data-i18n="mockup.src">Page 3 · Art. 18, Cl. 1</span>
+                    <span class="verified-badge" data-i18n="mockup.verified_badge">✓ Verified against source</span>
                   </div>
                 </div>
-                <div class="warning-notice" data-i18n="mockup.warning">Human verification recommended before operational use.</div>
+                <div class="warning-notice" data-i18n="mockup.warning">Human verification notice: AI-assisted output. Verify all conclusions against official institutional documents.</div>
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@
           <div class="pipeline-card reveal">
             <span class="pipeline-step-badge" data-i18n="workflow.s1.step">Step 01</span>
             <h3 data-i18n="workflow.s1.title">Institution documents</h3>
-            <p data-i18n="workflow.s1.body">Ingest official academic regulations, admission policies, circulars, and operational guidelines in Vietnamese.</p>
+            <p data-i18n="workflow.s1.body">Ingest official academic regulations, admission policies, circulars, and operational guidelines in text-based PDF format.</p>
             <div class="pipe-tag-list">
               <span data-i18n="workflow.s1.tag1">Academic regulations</span>
               <span data-i18n="workflow.s1.tag2">Admission policies</span>
@@ -211,11 +211,11 @@
 
           <div class="pipeline-card reveal">
             <span class="pipeline-step-badge" data-i18n="workflow.s2.step">Step 02</span>
-            <h3 data-i18n="workflow.s2.title">Document understanding</h3>
-            <p data-i18n="workflow.s2.body">Long-context reasoning, semantic provision retrieval, and structured information extraction across interconnected clauses.</p>
+            <h3 data-i18n="workflow.s2.title">Document extraction & reasoning</h3>
+            <p data-i18n="workflow.s2.body">Page-by-page text parsing, structured context formatting, and policy-grounded AI reasoning across interconnected clauses.</p>
             <div class="pipe-tag-list">
-              <span data-i18n="workflow.s2.tag1">Retrieval</span>
-              <span data-i18n="workflow.s2.tag2">Long-context reasoning</span>
+              <span data-i18n="workflow.s2.tag1">Page tracking</span>
+              <span data-i18n="workflow.s2.tag2">Policy reasoning</span>
               <span data-i18n="workflow.s2.tag3">Structured extraction</span>
             </div>
           </div>
@@ -223,156 +223,146 @@
           <div class="pipeline-card reveal">
             <span class="pipeline-step-badge" data-i18n="workflow.s3.step">Step 03</span>
             <h3 data-i18n="workflow.s3.title">Grounded output</h3>
-            <p data-i18n="workflow.s3.body">Synthesize cited answers, structured review fields, and specific provisions for audit-ready inspection.</p>
+            <p data-i18n="workflow.s3.body">Synthesize structured answers with specific clause citations, 1-based page numbers, and verbatim supporting evidence.</p>
             <div class="pipe-tag-list">
               <span data-i18n="workflow.s3.tag1">Cited answers</span>
-              <span data-i18n="workflow.s3.tag2">Structured fields</span>
-              <span data-i18n="workflow.s3.tag3">Identified provisions</span>
+              <span data-i18n="workflow.s3.tag2">Page citations</span>
+              <span data-i18n="workflow.s3.tag3">Supporting evidence</span>
             </div>
           </div>
 
           <div class="pipeline-card reveal">
             <span class="pipeline-step-badge" data-i18n="workflow.s4.step">Step 04</span>
-            <h3 data-i18n="workflow.s4.title">Human verification</h3>
-            <p data-i18n="workflow.s4.body">Operational decisions remain subject to accountable human review. AI supports staff rather than replacing oversight.</p>
+            <h3 data-i18n="workflow.s4.title">Server verification & human review</h3>
+            <p data-i18n="workflow.s4.body">Server-side quotation verification independently checks evidence against source text before accountable staff review.</p>
             <div class="pipe-tag-list">
-              <span data-i18n="workflow.s4.tag1">Accountable oversight</span>
-              <span data-i18n="workflow.s4.tag2">Operational discretion</span>
+              <span data-i18n="workflow.s4.tag1">Quotation verification</span>
+              <span data-i18n="workflow.s4.tag2">Human oversight</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Current Prototype Section & Interactive Concept -->
+    <!-- 4. Working Prototype Section -->
     <section class="section prototype-section" id="prototype">
       <div class="container">
         <div class="section-heading centered reveal">
-          <span class="section-label" data-i18n="prototype.label">What exists today</span>
-          <h2 data-i18n="prototype.title">Current prototype & workflow validation</h2>
-          <p data-i18n="prototype.lead">We are actively developing and validating core document reasoning workflows on real Vietnamese academic texts.</p>
-          <div style="margin-top:16px"><span class="status-pill" data-i18n="prototype.badge">Current stage: prototype development and workflow validation</span></div>
+          <span class="section-label" data-i18n="prototype.label">Working prototype</span>
+          <h2 data-i18n="prototype.title">Working prototype & live validation</h2>
+          <p data-i18n="prototype.lead">HieuDaoTao now has a deployed working prototype for academic policy intelligence. Upload a text-based academic regulation PDF, ask a policy question, and review a source-grounded answer with page-level supporting evidence.</p>
+          <div style="margin-top:16px"><span class="status-pill success" data-i18n="prototype.badge">Live prototype · Deployed at prototype.hieudaotao.io.vn</span></div>
         </div>
 
         <div class="prototype-capabilities-grid">
           <div class="cap-card reveal">
             <div class="cap-icon">01</div>
-            <h3 data-i18n="prototype.c1.title">Loading long documents</h3>
-            <p data-i18n="prototype.c1.body">Processing multi-hundred-page regulations, circulars, and institutional policy frameworks in Vietnamese.</p>
+            <h3 data-i18n="prototype.c1.title">Long-document policy analysis</h3>
+            <p data-i18n="prototype.c1.body">Processes text-based institutional regulation PDFs with preserved page boundaries.</p>
           </div>
           <div class="cap-card reveal">
             <div class="cap-icon">02</div>
-            <h3 data-i18n="prototype.c2.title">Asking document questions</h3>
-            <p data-i18n="prototype.c2.body">Querying specific academic procedures, eligibility clauses, and administrative conditions.</p>
+            <h3 data-i18n="prototype.c2.title">Grounded Q&A</h3>
+            <p data-i18n="prototype.c2.body">Answers administrative questions strictly from the supplied document without generic speculation.</p>
           </div>
           <div class="cap-card reveal">
             <div class="cap-icon">03</div>
-            <h3 data-i18n="prototype.c3.title">Retrieving relevant provisions</h3>
-            <p data-i18n="prototype.c3.body">Pinpointing relevant articles, clauses, and appendices across interconnected institutional files.</p>
+            <h3 data-i18n="prototype.c3.title">Source evidence context</h3>
+            <p data-i18n="prototype.c3.body">Pinpoints relevant articles, clauses, and 1-based page locations for every substantive claim.</p>
           </div>
           <div class="cap-card reveal">
             <div class="cap-icon">04</div>
-            <h3 data-i18n="prototype.c4.title">Source-grounded answers</h3>
-            <p data-i18n="prototype.c4.body">Producing structured responses with inline citations back to original document text.</p>
+            <h3 data-i18n="prototype.c4.title">Server-side evidence verification</h3>
+            <p data-i18n="prototype.c4.body">Independently checks whether each quoted passage exists verbatim in the stated page text.</p>
           </div>
           <div class="cap-card reveal">
             <div class="cap-icon">05</div>
-            <h3 data-i18n="prototype.c5.title">Structured extraction</h3>
-            <p data-i18n="prototype.c5.body">Turning unstructured requirements into reviewable tables, schemas, and checklist items.</p>
-          </div>
-          <div class="cap-card reveal">
-            <div class="cap-icon">06</div>
-            <h3 data-i18n="prototype.c6.title">Human review handoff</h3>
-            <p data-i18n="prototype.c6.body">Preparing outputs for rapid inspection, verification, and final decision by staff.</p>
+            <h3 data-i18n="prototype.c5.title">Human-in-the-loop oversight</h3>
+            <p data-i18n="prototype.c5.body">Formats outputs for rapid human audit, keeping staff accountable for official administrative decisions.</p>
           </div>
         </div>
 
-        <!-- Interactive Sample Concept -->
-        <div class="interactive-container reveal">
-          <div class="concept-disclaimer-bar">
-            <span class="badge-label">
-              <span class="dot" style="background:#ffb08d"></span>
-              <span data-i18n="prototype.demo.disclaimer">Interactive product concept using sample content — not a production system.</span>
-            </span>
+        <!-- Polished Workflow Preview Panel -->
+        <div class="workflow-preview-container reveal">
+          <div class="preview-header-bar">
+            <div class="preview-badge-label">
+              <span class="dot"></span>
+              <span data-i18n="prototype.preview_label">Workflow preview</span>
+            </div>
+            <span class="status-pill success">Live prototype</span>
           </div>
 
-          <div class="concept-grid">
-            <div class="concept-input-panel">
-              <div class="concept-card-block">
-                <span class="block-label" data-i18n="prototype.demo.doc_label">Sample Document</span>
-                <div class="doc-info-row">
-                  <div class="file-icon" aria-hidden="true">PDF</div>
-                  <div>
-                    <strong style="color:var(--text-bright);font-size:14px" data-i18n="prototype.demo.doc_title">University Admission Regulation 2026</strong>
-                    <small style="color:var(--muted);display:block" data-i18n="prototype.demo.doc_meta">128 pages · Vietnamese higher education</small>
-                  </div>
-                </div>
-              </div>
+          <!-- Real Workflow Steps Strip -->
+          <div class="workflow-steps-strip">
+            <span class="wf-step">PDF Document</span>
+            <span class="wf-arrow">→</span>
+            <span class="wf-step">Text Extraction & Page Tracking</span>
+            <span class="wf-arrow">→</span>
+            <span class="wf-step">AI Reasoning</span>
+            <span class="wf-arrow">→</span>
+            <span class="wf-step highlight">Server-Side Quotation Verification</span>
+            <span class="wf-arrow">→</span>
+            <span class="wf-step">Human Review</span>
+          </div>
 
-              <div class="concept-card-block">
-                <span class="block-label" data-i18n="prototype.demo.query_label">Staff Query</span>
-                <div class="query-display" data-i18n="prototype.demo.query_text">Which provisions define early-admission eligibility requirements?</div>
+          <!-- Sample Execution Card -->
+          <div class="sample-execution-card">
+            <div class="sample-exec-header">
+              <div class="sample-doc-tag">
+                <span style="font-weight:700;color:var(--accent)">[PDF]</span>
+                <strong style="color:var(--text-bright)" data-i18n="prototype.preview_doc">quy-che-dao-tao-mau.pdf</strong>
+                <span style="color:var(--muted-dim)" data-i18n="prototype.preview_doc_meta">Sample Academic Regulation · 3 pages</span>
               </div>
-
-              <div class="concept-action-row">
-                <button class="btn btn-primary" id="runPrototypeBtn" type="button" aria-label="Run sample workflow">
-                  <span data-i18n="prototype.demo.run_btn">Run sample workflow</span>
-                </button>
-                <button class="btn btn-outline" id="resetPrototypeBtn" type="button" style="display:none" aria-label="Reset workflow">
-                  <span data-i18n="prototype.demo.reset_btn">Reset workflow</span>
-                </button>
-              </div>
+              <span class="status-pill success" style="font-size:9px">SUPPORTED BY DOCUMENT</span>
             </div>
 
-            <!-- Stepper Progression Panel -->
-            <div class="stepper-panel" role="region" aria-live="polite">
-              <div class="stepper-header">
-                <span data-i18n="prototype.demo.stepper_title">Workflow Pipeline Simulation</span>
-                <span class="status-pill" style="font-size:9px">Client Concept</span>
+            <div class="sample-query-box" data-i18n="prototype.preview_q">What are the graduation eligibility conditions in this regulation?</div>
+
+            <div class="sample-answer-box">
+              <div class="sample-answer-head">
+                <span class="ai-chip">✦ Grounded Answer</span>
               </div>
+              <p class="sample-answer-text" data-i18n="prototype.preview_ans">Graduation eligibility is defined in Article 18. Students are recognized for graduation when their cumulative GPA reaches 2.00 or higher on a 4.0 scale and they satisfy the foreign language exit benchmark.</p>
 
-              <div class="stepper-track">
-                <div class="stepper-step" id="pStep1">
-                  <span class="step-dot">1</span>
-                  <span data-i18n="prototype.demo.step1">Document loaded</span>
+              <div class="sample-evidence-block">
+                <div class="evidence-meta-row">
+                  <span class="evidence-loc-chip" data-i18n="prototype.preview_evidence_tag">Page 3 · Điều 18, Khoản 1</span>
+                  <span class="verified-badge" data-i18n="prototype.preview_verified">✓ Verified against source</span>
                 </div>
-                <div class="stepper-step" id="pStep2">
-                  <span class="step-dot">2</span>
-                  <span data-i18n="prototype.demo.step2">Retrieving provisions</span>
-                </div>
-                <div class="stepper-step" id="pStep3">
-                  <span class="step-dot">3</span>
-                  <span data-i18n="prototype.demo.step3">Reasoning</span>
-                </div>
-                <div class="stepper-step" id="pStep4">
-                  <span class="step-dot">4</span>
-                  <span data-i18n="prototype.demo.step4">Grounding answer</span>
-                </div>
-                <div class="stepper-step" id="pStep5">
-                  <span class="step-dot">5</span>
-                  <span data-i18n="prototype.demo.step5">Ready for human review</span>
-                </div>
+                <p class="evidence-quote-text" data-i18n="prototype.preview_quote">“Sinh viên được công nhận tốt nghiệp khi điểm trung bình chung tích lũy toàn khóa đạt từ 2.00 trở lên theo thang điểm 4 và đạt chuẩn đầu ra ngoại ngữ...”</p>
               </div>
+            </div>
+          </div>
 
-              <!-- Output Box revealed on completion -->
-              <div class="stepper-output" id="demoOutput">
-                <div class="grounded-response-box">
-                  <div class="response-head">
-                    <span class="ai-chip" data-i18n="prototype.demo.ans_title">Grounded Output Summary</span>
-                    <span class="status-pill success" style="font-size:9px">Grounded</span>
-                  </div>
-                  <p class="response-text" data-i18n="prototype.demo.ans_p1">Early admission eligibility is defined across three key provisions: Article 7 (General criteria for high school academic records), Article 11 (Specific threshold criteria and program-specific conditions), and Appendix II (Conversion table for accredited language certificates).</p>
+          <!-- Prototype CTA -->
+          <div class="prototype-cta-panel">
+            <a class="btn btn-primary" href="https://prototype.hieudaotao.io.vn/" target="_blank" rel="noopener noreferrer" style="padding:15px 32px;font-size:15px" data-i18n="prototype.cta_btn">Try the live prototype ↗</a>
+            <div class="prototype-disclaimer-note" data-i18n="prototype.disclaimer">Prototype use only. Do not upload confidential or sensitive documents. AI-assisted outputs require verification against the original source.</div>
+          </div>
+        </div>
 
-                  <div style="font-size:11px;color:var(--muted);margin-top:10px" data-i18n="prototype.demo.ans_src_label">Identified provisions:</div>
-                  <div class="citation-list">
-                    <span class="citation-chip" data-i18n="prototype.demo.ans_src1">Art. 7 (Criteria)</span>
-                    <span class="citation-chip" data-i18n="prototype.demo.ans_src2">Art. 11 (Thresholds)</span>
-                    <span class="citation-chip" data-i18n="prototype.demo.ans_src3">Appendix II (Certificates)</span>
-                  </div>
-
-                  <div class="human-review-callout" data-i18n="prototype.demo.review_notice">Operational verification required: Staff must confirm the applicant certificate validity period against Circular 08/2022 before applying results.</div>
-                </div>
-              </div>
+        <!-- Prototype Limitations Box -->
+        <div class="prototype-limits-wrap reveal">
+          <div class="limits-head">
+            <span>⚠</span>
+            <span data-i18n="prototype.limits.title">Prototype limitations</span>
+          </div>
+          <div class="limits-grid">
+            <div class="limit-item">
+              <span>•</span>
+              <span data-i18n="prototype.limits.l1">Text-based PDFs only: Scanned documents requiring OCR are not yet supported.</span>
+            </div>
+            <div class="limit-item">
+              <span>•</span>
+              <span data-i18n="prototype.limits.l2">Upload size limits: Individual uploads are currently constrained to 4.5 MB by serverless platform limits.</span>
+            </div>
+            <div class="limit-item">
+              <span>•</span>
+              <span data-i18n="prototype.limits.l3">Human verification required: AI-generated interpretations assist staff and require review against the original source.</span>
+            </div>
+            <div class="limit-item">
+              <span>•</span>
+              <span data-i18n="prototype.limits.l4">Non-binding output: Prototype results do not constitute official institutional decisions or legal advice.</span>
             </div>
           </div>
         </div>
@@ -426,7 +416,7 @@
         <div class="section-heading centered reveal">
           <span class="section-label" data-i18n="whyclaude.label">Why Claude</span>
           <h2 data-i18n="whyclaude.title">Technical fit for long-form academic reasoning and verifiable workflows.</h2>
-          <p data-i18n="whyclaude.lead">We are prototyping with Claude because higher-education administration requires deep contextual understanding, nuanced language comprehension, and verifiable outputs.</p>
+          <p data-i18n="whyclaude.lead">HieuDaoTao is designed with a provider-agnostic reasoning layer. We are particularly interested in evaluating Claude for policy-intensive higher-education workflows where long-document reasoning, grounded outputs, structured tool use, and reliable human review are critical.</p>
         </div>
 
         <div class="themes-grid">
@@ -447,23 +437,25 @@
         <!-- Concept Architecture Diagram -->
         <div class="concept-arch-wrap reveal">
           <div class="arch-header">
-            <h3 style="font-size:18px" data-i18n="whyclaude.arch.title">Concept Architecture</h3>
-            <span class="status-pill" data-i18n="whyclaude.arch.badge">Concept architecture — not a production deployment</span>
+            <h3 style="font-size:18px" data-i18n="whyclaude.arch.title">Provider-Agnostic Reasoning Architecture</h3>
+            <span class="status-pill" data-i18n="whyclaude.arch.badge">Provider-agnostic architecture · Claude-ready design</span>
           </div>
 
           <div class="arch-flow">
             <div class="arch-node-box" data-i18n="whyclaude.arch.n1">Institution documents</div>
             <span class="arch-arrow">→</span>
-            <div class="arch-node-box" data-i18n="whyclaude.arch.n2">Secure ingestion / retrieval</div>
+            <div class="arch-node-box" data-i18n="whyclaude.arch.n2">Text extraction & page tracking</div>
             <span class="arch-arrow">→</span>
-            <div class="arch-node-box highlight" data-i18n="whyclaude.arch.n3">Claude reasoning layer</div>
+            <div class="arch-node-box highlight" data-i18n="whyclaude.arch.n3">Provider-agnostic AI reasoning</div>
             <span class="arch-arrow">→</span>
             <div class="arch-node-box" data-i18n="whyclaude.arch.n4">Structured output</div>
             <span class="arch-arrow">→</span>
-            <div class="arch-node-box" data-i18n="whyclaude.arch.n5">Validation logic</div>
+            <div class="arch-node-box highlight" data-i18n="whyclaude.arch.n5">Server-side verification</div>
             <span class="arch-arrow">→</span>
             <div class="arch-node-box terminal" data-i18n="whyclaude.arch.n6">Human review & decision</div>
           </div>
+
+          <div class="arch-note-box" data-i18n="whyclaude.note">Note: The current live prototype validates the workflow with a live AI backend (Vertex AI / Gemini), while the architecture remains provider-agnostic and ready for future Claude integration and evaluation.</div>
         </div>
       </div>
     </section>
@@ -473,7 +465,7 @@
       <div class="container">
         <div class="section-heading centered reveal">
           <span class="section-label" data-i18n="evaluation.label">Evaluation approach</span>
-          <h2 data-i18n="evaluation.title">How we plan to evaluate prototype reliability.</h2>
+          <h2 data-i18n="evaluation.title">How we evaluate prototype reliability & grounding.</h2>
           <p data-i18n="evaluation.lead">Before considering broader deployment, every workflow must undergo rigorous validation across four fundamental dimensions.</p>
         </div>
 
@@ -499,6 +491,8 @@
             <p data-i18n="evaluation.d4.body">Can academic staff verify outputs faster while retaining accountability and complete decision authority?</p>
           </article>
         </div>
+
+        <div class="eval-live-note reveal" data-i18n="evaluation.live_milestone">The prototype has completed an initial end-to-end live validation using a sample Vietnamese academic regulation, including server-side verification of supporting evidence. Broader evaluation across real institutional documents is the next step.</div>
 
         <div class="eval-disclaimer-note" data-i18n="evaluation.disclaimer">Evaluation protocols are designed for collaborative pilot trials. No arbitrary benchmark percentages are claimed.</div>
       </div>
@@ -568,11 +562,12 @@
           <div>
             <span class="section-label" data-i18n="contact.label">Pilot program</span>
             <h2 data-i18n="contact.title">Help us validate a real higher-education workflow.</h2>
-            <p data-i18n="contact.body">HieuDaoTao is looking for early conversations with higher-education teams interested in evaluating document analysis, policy-grounded Q&A, and administrative workflow support.</p>
+            <p data-i18n="contact.body">Interested in evaluating AI-assisted academic policy workflows? Explore the live prototype or get in touch to discuss a pilot use case.</p>
           </div>
           <div class="contact-actions">
-            <a class="btn btn-primary" href="mailto:hello@hieudaotao.io.vn" data-i18n="contact.email_btn">hello@hieudaotao.io.vn</a>
-            <a class="btn btn-outline" href="https://www.linkedin.com/in/hieu-dang-van-b16b89441" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin_btn">Connect on LinkedIn</a>
+            <a class="btn btn-primary" href="https://prototype.hieudaotao.io.vn/" target="_blank" rel="noopener noreferrer" data-i18n="contact.cta_prototype">Try live prototype ↗</a>
+            <a class="btn btn-outline" href="mailto:hello@hieudaotao.io.vn" data-i18n="contact.email_btn">hello@hieudaotao.io.vn</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/hieu-dang-van-b16b89441" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin_btn">Connect on LinkedIn</a>
             <span class="contact-stage-note" data-i18n="contact.note">Exploratory pilot discussions · Non-production evaluation</span>
           </div>
         </div>
@@ -591,6 +586,7 @@
       </div>
 
       <div class="footer-links">
+        <a href="#prototype" data-i18n="footer.prototype">Working Prototype</a>
         <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
         <a href="terms.html" data-i18n="footer.terms">Terms</a>
         <a href="#contact" data-i18n="footer.pilot">Pilot program</a>
