@@ -1,20 +1,21 @@
 # HieuDaoTao website
 
-Static landing page designed for Vercel deployment.
+Static product website designed for Vercel deployment.
+
+## Overview
+HieuDaoTao is an early-stage EdTech project building AI-assisted workflows for academic regulations and higher-education administration in Vietnam.
 
 ## Files
-- `index.html` — bilingual EN/VI startup landing page
-- `styles.css` — responsive UI
-- `script.js` — language switch, mobile menu, reveal animation
-- `privacy.html` / `terms.html` — basic legal pages for an early-stage prototype
-- `robots.txt` / `sitemap.xml` — basic SEO
-- `vercel.json` — Vercel security headers
+- `index.html` — Architecture V2 landing page (Hero, Problem, Core Workflow, Prototype, Use Cases, Why Claude, Evaluation, Principles, Founder, Pilot CTA, Footer)
+- `styles.css` — Responsive design system with dark visual identity
+- `script.js` — Language switch (EN/VI), mobile navigation, reveal animation, interactive prototype simulation
+- `privacy.html` / `terms.html` — Early-stage informational project legal notices
+- `robots.txt` / `sitemap.xml` — Search engine indexing and sitemap definitions
+- `vercel.json` — Vercel security headers and clean URL routing
+- `assets/brand/` — SVG logo, SVG favicon, and Open Graph share image
 
 ## Deploy
-Replace the equivalent files in your GitHub repository and push to the branch connected to Vercel. Vercel will redeploy automatically.
+Push changes to the `main` branch connected to Vercel. Automatic redeployment will trigger via Git integration.
 
-## Before publishing
-1. Create `hello@hieudaotao.io.vn` or replace that email everywhere.
-2. Confirm the LinkedIn URL in `index.html`.
-3. Keep the prototype/early-stage wording accurate until features are actually production-ready.
-4. Ensure the GitHub repository name is aligned with the brand (`hieudaotao-web`).
+## Contact
+- Public inquiries: `hello@hieudaotao.io.vn`
